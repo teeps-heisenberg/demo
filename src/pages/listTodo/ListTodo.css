@@ -1,0 +1,90 @@
+.todoContainer{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100vh;
+}
+
+.todoContainer > h1{
+    font-size: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.addTodo{
+    display: flex;
+    flex-direction: column;
+}
+
+.todoContainer > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 1px solid #a3a3a3;
+    padding: 2em;
+    min-width: 35%;
+    max-width: 50%;
+    box-shadow: 0px 0px 25px #a3a3a3;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.addTodo > label {
+    font-weight: bold;
+    color: #3e3e3e;;
+}
+.addTodo > input {
+    margin-top: 6px;
+    outline: none;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid #3e3e3e;;
+}
+
+.todoContainer > form > button {
+    border: none;
+    padding: 12px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #3e3e3e;
+    border-radius: 7px;
+}
+
+.todoList{
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    max-width: 40%;
+    gap: 1em;
+}
+
+.todoListCard{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #a3a3a3;
+    box-shadow: 0px 0px 25px #a3a3a3;
+    padding: 1em;
+    border-radius: 7px;
+    flex-wrap: wrap;
+}
+
+.todoListCard > div {
+    display: flex;
+}
+
+.btnn{
+    border: none;
+    padding: 6px 8px;
+    font-weight: 600;
+    color: white;
+    background-color: #3e3e3e;
+    border-radius: 7px;
+    margin-right: 10px;
+}
